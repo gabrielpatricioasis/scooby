@@ -1,0 +1,103 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Tipografía y fondo con estilo retro */
+body {
+  font-family: 'Roboto Mono', monospace;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+/* Encabezado y navegación */
+header {
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px solid transparent;
+}
+
+nav ul li a:hover {
+  border-bottom: 1px solid #333;
+}
+
+/* Estilos de la galería */
+.gallery {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.gallery article {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Diseño responsive: 2 columnas en pantallas grandes y 1 columna en pantallas pequeñas */
+@media (min-width: 600px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 599px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Secciones About y Links */
+.about, .links {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.about h1, .links h1 {
+  margin-bottom: 10px;
+}
+
+/* Botón para donaciones */
+.button {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+/* Pie de página */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9em;
+}
