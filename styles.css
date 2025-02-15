@@ -57,18 +57,10 @@ nav ul li a:hover {
   display: block;
 }
 
-/* Diseño responsive: 2 columnas en pantallas grandes y 1 columna en pantallas pequeñas */
-@media (min-width: 600px) {
-  .gallery {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
 @media (max-width: 599px) {
   .gallery {
-    grid-template-columns: 1fr;
+    column-count: 1;
   }
-}
 
 /* Secciones About y Links */
 .about, .links {
