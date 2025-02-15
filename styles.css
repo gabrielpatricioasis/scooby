@@ -62,6 +62,24 @@ nav ul li a:hover {
     column-count: 1;
   }
 
+@media (max-width: 599px) {
+  body {
+    font-size: 13px; /* O el tamaño que prefieras */
+  }
+  h1 {
+    font-size: 16px; /* O el tamaño que prefieras */
+  }
+}
+
+@media (max-width: 599px) {
+  .about, .links {
+    background-color: transparent; /* o el color de fondo que prefieras */
+    border: none;
+    padding: 1px; /* ajusta el padding según necesites */
+  }
+}
+
+
 /* Secciones About y Links */
 .about, .links {
   background-color: #fff;
