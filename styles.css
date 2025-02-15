@@ -40,14 +40,15 @@ nav ul li a:hover {
 
 /* Estilos de la galería */
 .gallery {
-  display: grid;
-  grid-gap: 10px;
+  column-count: 2;
+  column-gap: 10px;
 }
-
 .gallery article {
-  background-color: #fff;
+  break-inside: avoid;
+  margin-bottom: 10px;
   padding: 10px;
-  border: 1px solid #ddd;
+  border: none;
+ /*background-color: #fff;*/
 }
 
 .gallery img {
