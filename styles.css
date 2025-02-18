@@ -13,6 +13,11 @@ body {
   padding: 20px;
 }
 
+.helloworld{
+  background: url('assets/img/fondo.JPG') no-repeat center center fixed;
+  background-size: cover;
+}
+
 /* Encabezado y navegación */
 header {
   margin-bottom: 20px;
