@@ -38,6 +38,10 @@ nav ul li a:hover {
   border-bottom: 1px solid #333;
 }
 
+.blanquito:hover {
+  border-bottom: 1px solid white;
+}
+
 /* Estilos de la galería */
 .gallery {
   column-count: 2;
