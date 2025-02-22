@@ -33,8 +33,14 @@ nav ul {
   justify-content: center;
 }
 
+ul { 
+  list-style: disc; /* Restaura bullets en listas normales */
+  padding-left: 13px; /* Ajusta la sangría para que los bullets no estén muy a la izquierda */
+}
+
 nav ul li {
   margin: 0 10px;
+  display: list-item; /* Asegura que los bullets se muestren correctamente */
 }
 
 nav ul li a {
@@ -70,6 +76,14 @@ nav ul li a:hover {
   display: block;
 }
 
+.justme{
+  width: 100%;
+  max-width: 600px; /* Ajusta este valor según prefieras */
+  height: auto;
+  display: block; /* Opcional, para evitar espacios extra debajo de la imagen */
+  margin: 20px auto 0; /* Centra la imagen y añade margen superior */
+}
+
 @media (max-width: 599px) {
   .gallery {
     column-count: 1;
@@ -81,6 +95,9 @@ nav ul li a:hover {
   }
   h1 {
     font-size: 16px; /* O el tamaño que prefieras */
+  }
+  ul { 
+  padding-left: 12px; /* Ajusta la sangría para que los bullets no estén muy a la izquierda */
   }
 }
 
