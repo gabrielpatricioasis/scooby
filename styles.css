@@ -35,7 +35,7 @@ nav ul {
 
 ul { 
   list-style: disc; /* Restaura bullets en listas normales */
-  padding-left: 13px; /* Ajusta la sangría para que los bullets no estén muy a la izquierda */
+  padding-left: 20px; /* Ajusta la sangría para que los bullets no estén muy a la izquierda */
 }
 
 nav ul li {
