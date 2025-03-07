@@ -64,6 +64,7 @@ h1 {
 h2 {
   font-size: 1.2em; /* Ajusta este tamaño según prefieras */
   font-weight: bold; /* Para asegurarte de que sea un subtítulo claro */
+  margin-bottom: 2px;
 }
 
 h3 {
