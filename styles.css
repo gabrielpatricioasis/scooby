@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'minombre';
+  src: url('assets/fonts/DRUNKFONTS-Regular.woff2') format('woff2'),
+       url('assets/fonts/DRUNKFONTS-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Reset básico */
 * {
   margin: 0;
@@ -16,6 +24,17 @@ body {
 .helloworld{
   background: url('assets/img/fondo.JPG') no-repeat center center fixed;
   background-size: cover;
+}
+
+.nom{
+  font-family: 'minombre';
+  font-size: 7em;
+  color: black;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* Encabezado y navegación */
