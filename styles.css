@@ -46,6 +46,11 @@ body {
   width: 90%;  /* Ajusta el ancho al 90% de la pantalla */
   max-width: 800px; /* Evita que sea demasiado ancho en pantallas grandes */
   white-space: wrap; /* Permite que el texto se divida si es largo */
+  transition: color 1.45s ease-in-out;
+}
+
+.nom:hover {
+  color: #d609cc; /* Color al hacer hover */
 }
 
 .newfont{
