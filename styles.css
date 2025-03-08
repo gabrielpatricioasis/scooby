@@ -6,6 +6,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'menufont';
+  src: url('assets/fonts/Crooked.woff2') format('woff2'),
+       url('assets/fonts/Crooked.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Reset básico */
 * {
   margin: 0;
@@ -35,6 +43,10 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.newfont{
+  font-family: menufont;
 }
 
 /* Encabezado y navegación */
