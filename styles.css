@@ -58,6 +58,13 @@ header {
   margin-bottom: 20px;
 }
 
+/* Pie de página */
+footer {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1em;
+}
+
 p {
   line-height: 1.5;
 }
@@ -188,9 +195,3 @@ h3 {
   background-color: #555;
 }
 
-/* Pie de página */
-footer {
-  text-align: center;
-  margin-top: 20px;
-  font-size: 0.9em;
-}
