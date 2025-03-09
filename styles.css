@@ -50,7 +50,7 @@ body {
   transition: color 1.45s ease-in-out;
 }
 
-.nom:hover, .nom:active {
+.nom:hover, nom:focus, .nom:active {
   color: #d609cc; /* Color al hacer hover */
 }
 
