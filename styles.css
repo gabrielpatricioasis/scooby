@@ -123,6 +123,14 @@ h3 {
   font-size: 1.1em; /* Si deseas mantener un tamaño más pequeño, ajusta */
 }
 
+.orcid{
+  text-decoration: none;
+}
+
+.orcid:hover, .orcid:focus, .orcid:active{
+  text-decoration: underline;
+}
+
 /* Estilos de la galería */
 .gallery {
   column-count: 2;
@@ -204,4 +212,6 @@ h3 {
 .button:hover {
   background-color: #555;
 }
+
+
 
