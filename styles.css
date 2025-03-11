@@ -168,7 +168,7 @@ h3 {
   max-width: 300px; /* Ajustaré este valor según prefiera */
   height: auto;
   display: block; /* Opcional, para evitar espacios extra debajo de la imagen */
-  margin: 20px auto 20px; /* Centra la imagen y añade margen superior */
+  margin: 23px auto 23px; /* Centra la imagen y añade margen superior */
   border-radius: 10px; /* Opcional: esquinas redondeadas */
 }
 
