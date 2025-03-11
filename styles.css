@@ -147,6 +147,7 @@ h3 {
 .gallery {
   column-count: 2;
   column-gap: 10px;
+  margin-top: -5px; /*nuevo, lo dejo lo quito?*/
 }
 .gallery article {
   break-inside: avoid;
