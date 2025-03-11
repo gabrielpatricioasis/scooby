@@ -197,18 +197,25 @@ h3 {
   }
 }
 
+@media (max-height: 500px) and (orientation: landscape) {
+  .nom {
+    top: 55%; /* Baja el texto un poco más */
+    transform: translate(-50%, -55%); /* Ajusta la posición en relación al top */
+  }
+}
+
 
 /* Secciones About y Links */
-.about, .links {
+/*.about, .links {
   background-color: #fff;
   padding: 20px;
   border: 1px solid #ddd;
   margin-bottom: 20px;
-}
+}*/
 
 
 /* Botón para donaciones */
-.button {
+/*.button {
   display: inline-block;
   padding: 10px 15px;
   background-color: #333;
@@ -219,7 +226,7 @@ h3 {
 
 .button:hover {
   background-color: #555;
-}
+}*/
 
 
 
