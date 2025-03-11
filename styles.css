@@ -60,6 +60,11 @@ body {
   user-select: none;
 }
 
+.about, .links{
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
 /* Encabezado y navegación */
 header {
   margin-bottom: 20px;
@@ -90,13 +95,13 @@ nav ul {
 }
 
 ul { 
-  list-style: disc; /* Restaura bullets en listas normales */
-  padding-left: 20px; /* Ajusta la sangría para que los bullets no estén muy a la izquierda */
+  list-style: disc; /* Restaurar bullets en listas normales */
+  padding-left: 20px; /* Ajustar la sangría para que los bullets no estén muy a la izquierda */
 }
 
 nav ul li {
   margin: 0 10px;
-  display: list-item; /* Asegura que los bullets se muestren correctamente */
+  display: list-item; /* Para que los bullets se muestren correctamente */
 }
 
 nav ul li a {
@@ -106,9 +111,9 @@ nav ul li a {
   border-bottom: 1px solid transparent;
 }
 
-nav ul li a:hover {
-  /*border-bottom: 1px solid #333;*/
-}
+/*nav ul li a:hover {
+  border-bottom: 1px solid #333;
+}*/
 
 .blanquito:hover {
   /*border-bottom: 1px solid white;*/
@@ -117,17 +122,17 @@ nav ul li a:hover {
 }
 
 h1 {
-  font-size: 1.4em; /* Ajusta este tamaño según prefieras */
+  font-size: 1.4em;
 }
 
 h2 {
-  font-size: 1.2em; /* Ajusta este tamaño según prefieras */
-  font-weight: bold; /* Para asegurarte de que sea un subtítulo claro */
+  font-size: 1.2em;
+  font-weight: bold; /* Para asegurarme de que sea un subtítulo claro */
   margin-bottom: 2px;
 }
 
 h3 {
-  font-size: 1.1em; /* Si deseas mantener un tamaño más pequeño, ajusta */
+  font-size: 1.1em; /* Si deseara mantener un tamaño más pequeño, ajustaré */
 }
 
 .orcid{
@@ -159,7 +164,7 @@ h3 {
 
 .justme{
   width: 100%;
-  max-width: 300px; /* Ajusta este valor según prefieras */
+  max-width: 300px; /* Ajustaré este valor según prefiera */
   height: auto;
   display: block; /* Opcional, para evitar espacios extra debajo de la imagen */
   margin: 4px auto 23px; /* Centra la imagen y añade margen superior */
@@ -167,47 +172,40 @@ h3 {
 }
 
 @media (max-width: 599px) {
-  .gallery {
-    column-count: 1;
-  }
-
-@media (max-width: 599px) {
   body {
-    font-size: 13px; /* O el tamaño que prefieras */
+    font-size: 13px;
   }
   h1 {
-    font-size: 15.5px; /* O el tamaño que prefieras */
+    font-size: 15.5px;
   }
 
   h2 {
-    font-size: 14px; /* O el tamaño que prefieras */
+    font-size: 14px;
     margin-bottom: 3px;
   }
 
   ul { 
-  padding-left: 12px; /* Ajusta la sangría para que los bullets no estén muy a la izquierda */
+  padding-left: 12px; /* Ajuste de sangría para que los bullets no estén muy a la izquierda */
+  }
+
+  .gallery {
+    column-count: 1;
+  }
+
+  .about, .links {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 1px;
   }
 }
 
 @media (max-width: 599px) {
-  .about, .links {
-    background-color: transparent; /* o el color de fondo que prefieras */
-    border: none;
-    padding: 1px; /* ajusta el padding según necesites */
-  }
+  
 }
-
-
-/* Secciones About y Links */
-.about, .links {
-  background-color: #fff;
-  padding: 20px;
-  border: 1px solid #ddd;
-  margin-bottom: 20px;
-}
-
 
 /* Botón para donaciones */
+/*
 .button {
   display: inline-block;
   padding: 10px 15px;
@@ -219,7 +217,7 @@ h3 {
 
 .button:hover {
   background-color: #555;
-}
+}*/
 
 
 
