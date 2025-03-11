@@ -201,6 +201,7 @@ h3 {
   .nom {
     top: 55%; /* Baja el texto un poco más */
     transform: translate(-50%, -55%); /* Ajusta la posición en relación al top */
+    font-size: 4.5em;
   }
 }
 
